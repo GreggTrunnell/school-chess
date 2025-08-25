@@ -5,18 +5,16 @@ import {
   Navigate
 } from "react-router-dom";
 
+import Header from '../Header/Header';
 import HomePage from '../HomePage/HomePage';
-import Nav from '../Nav/Nav';
+import Tournaments from '../Tournaments/Tournaments';
 
 function App() {
 
   return (
     <>
       <header>
-        <div className="Header">
-          <h1 className="green-text">School Chess Association</h1>
-          <img src="public/images/night_time_court.webp" style={{ width: "400px", height: "375px" }} />
-        </div>
+     <Header />
       </header>
       <main>
         <Routes>
@@ -24,8 +22,12 @@ function App() {
           exact path="/"
           element={<HomePage />}
         />
+            <Route
+          exact path="/tournaments"
+          element={<Tournaments />}
+        />
         </Routes>
-         <Nav />
+
       </main>
       <footer>
         <p>Copyright © {new Date().getFullYear()}</p>

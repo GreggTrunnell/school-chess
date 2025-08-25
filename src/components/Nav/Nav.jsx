@@ -5,8 +5,8 @@ function Nav( ) {
   return (
     <nav>
      <div className='Nav'>
-    <NavLink to="/">Home</NavLink>
-     <NavLink to="/nav">Nav</NavLink>
+    <NavLink className="btn btn-success" to="/">Home</NavLink>
+     <NavLink className="btn btn-success" to="/tournaments">Tournaments</NavLink>
     </div>
     </nav>
   );

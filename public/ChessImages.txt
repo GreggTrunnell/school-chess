@@ -1,15 +1,4 @@
 
-function Tournaments( ) {
-  
-  return (
-     <div className='Tournaments'>
-      <h1>Hey we have some tournaments</h1>
-    </div>
-  );
-  }
-
-export default Tournaments;
-
   const images = [
     "https://schoolchess.org/old/images/primary_champ_2025.jpeg?x=20250506150359",
     "https://schoolchess.org/old/images/elementary_champ_2025.jpeg?x=20250506155801",

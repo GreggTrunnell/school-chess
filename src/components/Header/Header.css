@@ -1,0 +1,31 @@
+.slide {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.slideshow {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 30px;
+  font-style: italic;
+  color: #1b26cc;
+}
+
+.sub-caption {
+  margin-top: 10px;
+  font-size: 30px;
+  font-style: italic;
+  color: #18991d;
+}

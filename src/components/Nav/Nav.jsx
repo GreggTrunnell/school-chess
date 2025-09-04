@@ -11,9 +11,7 @@ function Nav() {
         <NavLink className="btn btn-success" to="/about">About</NavLink>
       </div>
 
-      <div>
-        <img src="  https://schoolchess.org/old/images/knightlogo.jpg" alt="Knight Logo" />
-      </div>
+     
     </nav>
   );
 }

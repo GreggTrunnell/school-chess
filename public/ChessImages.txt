@@ -5,3 +5,5 @@
     "https://schoolchess.org/old/images/middle_champ_2025.jpeg?x=20250506160128",
     "https://schoolchess.org/old/images/coachoftheyear2025.jpeg?x=20250506161611",
   ];
+
+  https://schoolchess.org/old/images/knightlogo.jpg

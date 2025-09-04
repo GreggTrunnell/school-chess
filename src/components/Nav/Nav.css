@@ -1,0 +1,28 @@
+.Nav {
+  display: flex;             /* side by side */
+  align-items: flex-start;   /* align items at the top */
+  gap: 20px;                 /* space between links and images */
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;    /* stack links vertically */
+  gap: 10px;                 /* space between links */
+}
+
+.nav-links .btn {
+  width: 180px;              /* keep consistent button width */
+  text-align: left;          /* align text */
+}
+
+.nav-images {
+  display: flex;
+  flex-direction: column;    /* stack images too */
+  gap: 10px;
+}
+
+.nav-images img {
+  width: 120px;              /* adjust size as needed */
+  height: auto;
+  border-radius: 8px;
+}

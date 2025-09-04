@@ -15,12 +15,12 @@ function HomePage() {
     },
     {
       src: "https://schoolchess.org/old/images/middle_champ_2025.jpeg?x=20250506160128",
-            caption: "Well done to our 2025 Statewide Tournament Champions!",
+      caption: "Well done to our 2025 Statewide Tournament Champions!",
       subCaption: "Middle Champion: Neil Vartak",
     },
-     {
+    {
       src: "https://schoolchess.org/old/images/coachoftheyear2025.jpeg?x=20250506161611",
-            caption: "Congratulations 2025 Coach of the Year!",
+      caption: "Congratulations 2025 Coach of the Year!",
       subCaption: "Veronica Harrison",
     },
   ];
@@ -47,7 +47,6 @@ function HomePage() {
           src={slides[currentIndex].src}
           alt={slides[currentIndex].caption}
           className={`slide ${fade ? "fade-in" : "fade-out"}`}
-          style={{ width: "400px", height: "375px", borderRadius: "12px" }}
         />
         <p className="caption">{slides[currentIndex].caption}</p>
         <p className="sub-caption">{slides[currentIndex].subCaption}</p>

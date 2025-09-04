@@ -1,6 +1,34 @@
+.slideshow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;   /* optional: limits how big images get */
+  margin: auto;
+}
+
 .slide {
-  opacity: 0;
+  width: 100%;
+  height: auto;        /* preserves aspect ratio */
+  max-height: 80vh;    /* optional: keeps it from being too tall */
+  border-radius: 12px;
+  object-fit: contain; /* makes sure full image is visible */
   transition: opacity 0.5s ease-in-out;
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #cb0808;
+  text-align: center;
+}
+
+.sub-caption {
+  font-size: 1rem;
+  font-style: italic;
+  color: #0d5ddd;
+  text-align: center;
+  margin-top: 4px;
 }
 
 .fade-in {
@@ -9,23 +37,4 @@
 
 .fade-out {
   opacity: 0;
-}
-
-.slideshow {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.caption {
-  margin-top: 10px;
-  font-size: 30px;
-  font-style: italic;
-  color: #1b26cc;
-}
-
-.sub-caption {
-  margin-top: 10px;
-  font-size: 30px;
-  font-style: italic;
-  color: #18991d;
 }
